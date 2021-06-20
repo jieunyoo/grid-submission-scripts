@@ -1,0 +1,13 @@
+executable = exec4.sh
+
+should_transfer_files = YES
+transfer_input_files = process_file4.py,input.txt
+when_to_transfer_output = ON_EXIT
+
+universe = vanilla
+output = output.out
+error = error.err
+log = log.log
+
+request_cpus = 1
+queue
