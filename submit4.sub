@@ -1,7 +1,7 @@
 executable = exec4.sh
 
 should_transfer_files = YES
-transfer_input_files = process_file4.py,input.txt
+transfer_input_files = process_file4.py
 when_to_transfer_output = ON_EXIT
 
 universe = vanilla
